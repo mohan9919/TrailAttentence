@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:hint="roll"
+            android:id="@+id/start_class_roll_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:hint="name"
+            android:id="@+id/start_class_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:hint="Presence Hints"
+            android:id="@+id/start_class_present_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
